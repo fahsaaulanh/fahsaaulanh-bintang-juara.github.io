@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="src/image/logo-transparant-white.png" type="image/png">
     <title>Bintang Juara</title>
+    <link rel="stylesheet" href="/fahsaaulanh-bintang-juara.github.io/dist/css/tailwind.css" />
     <link rel="stylesheet" href="/dist/css/tailwind.css" />
     <style>
       .triangle {
@@ -22,7 +23,7 @@
 </head>
 <body>
   <!-- Header -->
-  <div class="sm:display-none">
+  <div class="">
     <div class="relative bg-black w-full h-24 m-0 p-2">
       <div class="grid grid-cols-2 w-4/5 mx-auto my-3">
         <div class="flex-intial-1 text-gray-400 ">
@@ -52,6 +53,14 @@
         </div>
         <div class="triangle pl-3 min-w-0"></div>
         <div class="bg-blue-900 float-right h-full w-4/5 rounded-br-lg shadow-2xl ">
+          <div class="flex justify-end w-full mt-8 -mx-10 ">
+            <div class="text-white font-bold font-size text-xl ml-10 border-b-2 border-blue-900 hover:border-white hover:text-gray-200">
+              <a href="" class="">Masuk</a>
+            </div>
+            <div class="text-white font-bold font-size text-xl ml-10 border-b-2 border-blue-900 hover:border-white hover:text-gray-200">
+              <a href="">Daftar</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -59,11 +68,11 @@
    
   <!-- End Header -->
   <!-- Body -->
-  <img src="src/image/bg.jpg" alt="" class="w-full h-screen blur-lg">
+  <img src="src/image/bg.jpg" alt="" class="m-0 p-0 w-full h-screen blur-lg">
 
   <!-- Content Profile -->
-  <div class="flex justify-center bg-black my-auto h-screen">
-    <div class="grid grid-cols-2 w-4/5 h-4/5 bg-white">
+  <div class="h-auto">
+    <div class="grid grid-cols-1 sm:grid-cols-2 w-4/5 h-auto mx-auto mt-24" >
       <div class="logo">
         <img src="src/image/logo-transparant.png" class="w-80 h-64 mt-10" alt="">
       </div>
@@ -72,13 +81,26 @@
           <h3 class="text-blue-900 text-4xl font-bold mt-10">Layanan Belajar Online Gratis & Terpercaya</h3>
           <div class="button">
             <div class="flex mt-28">
-              <a class="bg-blue-900 w-36 h-10 rounded-lg shadow-2xl hover:bg-blue-700">
-                <div class="text-white font-bold text-center mt-2 ">Tentang Kami</div>
+              <a href="" class="bg-blue-900 w-36 h-10 rounded-lg hover:shadow-2xl hover:bg-blue-700 ">
+                <div class="text-white font-bold text-center mt-2 hover:text-grey-100">Tentang Kami</div>
+              </a>
+              <a href="" class="bg-white w-36 h-10 rounded-lg hover:shadow-2xl border-2 border-blue-900 hover:border-blue-400 ml-4">
+                <div class=" text-blue-900 font-bold text-center mt-2 hover:text-blue-400">Mulai Belajar</div>
               </a>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- End Profile -->
+  <div class="bg-gray-200 w-full h-screen">
+    <div class="grid grid-cols-1 sm:grid-cols-3 w-4/5 h-4/5 mt-36 gap-x-4 gap-y-4 m-auto">
+      <div class="card w-52 h-60 h-40 bg-white rounded-50 rounded-md shadow-2xl"></div>
+      <div class="card w-52 h-60 h-40 bg-white"></div>
+      <div class="card w-52 h-60 h-40 bg-white"></div>
+      <div class="card w-52 h-60 h-40 bg-white"></div>
     </div>
   </div>
 </body>
